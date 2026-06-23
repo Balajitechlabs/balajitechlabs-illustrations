@@ -1,281 +1,152 @@
-# Ian Xiaohei Illustrations
+<!-- markdownlint-disable MD033 MD041 -->
+<div align="center">
 
-> 把中文文章里的判断、流程、状态和隐喻，变成一张张白底、手绘、怪诞但清爽的正文配图。
->
-> 16:9 横版 | 小黑 IP | 纯白手绘 | 少量红橙蓝中文批注 | Codex Skill
+<!-- 🚀 DYNAMIC HEADER SECTION 🚀 -->
+<picture>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=300&section=header&text=Balaji%20S&fontSize=90&animation=fadeIn&fontAlignY=35&desc=Crafting%20Digital%20Experiences%20Through%20Code&descAlignY=60&descSize=25" width="100%"/>
+</picture>
 
----
+<br/>
 
-## 这个仓库是什么
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F2FE&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;React+%26+Three.js+Expert;UI%2FUX+Designer;Open+Source+Contributor" alt="Typing SVG" />
+</a>
 
-Ian Xiaohei Illustrations 是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、博客、Notion 文档和方法论内容生成正文配图。
+<br/>
 
-它不是通用插画 prompt，也不是 PPT 信息图模板。它的核心目标是：先理解文章里的认知锚点，再把其中一个判断、流程、结构、状态或隐喻，变成一张有记忆点的 16:9 手绘解释图。
-
-默认视觉 IP 是“小黑”：一个黑色实心、白点眼、细腿、空表情的小角色。小黑不是吉祥物，不是贴纸，也不是站在角落里的装饰物，而是正在认真参与系统运转的荒诞工作者。
-
-一句话：**让 AI 不只是“配一张图”，而是把文章里的一个关键认知动作画出来。**
-
----
-
-## 适合谁用
-
-特别适合：
-
-- 写中文文章，需要正文配图和文章插图的人
-- 做知识型内容、方法论内容、AI 工作流内容的人
-- 想把抽象判断画成具体隐喻的人
-- 想要一种比 PPT 信息图更轻、更怪、更有个人识别度的配图风格的人
-- 用 Codex 做内容生产，希望稳定复用一套视觉语言的人
-
-不适合：
-
-- 想要商业插画、品牌 KV 或精致扁平插画的人
-- 想要传统 PPT 信息图、复杂架构图或流程图的人
-- 想要儿童卡通、可爱 IP、表情包风格的人
-- 想把大量正文、长段解释或完整课程页塞进一张图里的人
-- 需要严格可编辑矢量源文件的人
+<!-- 🌐 QUICK STATS & LINKS 🌐 -->
+<div align="center">
+  <a href="mailto:admin@balajitechlab.com"><img src="https://img.shields.io/badge/Email-admin%40balajitechlab.com-00F2FE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://portfolio.balajitechlab.com"><img src="https://img.shields.io/badge/Portfolio-balajitechlab.com-4FACFE?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
+  <img src="https://komarev.com/ghpvc/?username=Balajitechlabs&label=Profile%20Views&color=00F2FE&style=for-the-badge" alt="profile views"/>
+</div>
+<br/>
 
 ---
 
-## 它会产出什么
+### 👨‍💻 **Who Am I?**
 
-默认输出：
+I am a passionate **Full-Stack Developer** and **UI/UX Designer** based in India. I specialize in building immersive, high-performance web applications with a strong focus on 3D animations and responsive design. When I'm not coding, I'm exploring new technologies, contributing to open-source, or refining my design aesthetics.
 
-- 16:9 横版正文配图
-- 一篇文章的 4-8 张 shot list
-- 每张图的主题、核心意思、结构类型、小黑动作和中文标注建议
-- 最终 PNG 图片，保存到 workspace 的 `assets/<article-slug>-illustrations/`
+<details>
+<summary><b>✨ Terminal: <code>whoami</code> (Click to expand)</b></summary>
 
-默认不输出：
-
-- PPTX / PDF / Keynote
-- SVG / HTML / Canvas 可编辑图
-- 商业海报或封面 KV
-- 大段文字型信息图
-
----
-
-## 视觉风格
-
-这个 skill 默认使用 Ian 的“小黑怪诞正文配图”风格：
-
-- 纯白背景，不要纸纹、米色、阴影、渐变
-- 黑色手绘线稿，细线，轻微抖动
-- 大量留白，主体只占画面约 40%-60%
-- 少量红色、橙色、蓝色中文手写批注
-- 一张图只表达一个核心动作、结构、状态或隐喻
-- 小黑必须参与核心动作，不能只是装饰
-- 怪诞、有创意、清爽，但不幼稚、不卖萌
-
----
-
-## 示例效果
-
-### 两个断点
-
-![两个断点](examples/images/01-two-breakpoints.png)
-
-### 按目的分拣
-
-![按目的分拣](examples/images/02-sort-by-purpose.png)
-
-### 一鱼多吃
-
-![一鱼多吃](examples/images/03-one-fish-many-uses.png)
-
-### 承接路径
-
-![承接路径](examples/images/04-handoff-path.png)
-
-### 信息井
-
-![信息井](examples/images/05-information-well.png)
-
-### 想法压机
-
-![想法压机](examples/images/06-idea-press.png)
-
-### 内容发酵
-
-![内容发酵](examples/images/07-content-fermentation.png)
-
-### 信任桥
-
-![信任桥](examples/images/08-trust-bridge.png)
-
-这些图片是风格校准样例，不是构图模板。使用时应该从当前文章重新发明隐喻，不要照抄旧案例的物件和构图。
-
----
-
-## 安装
-
-克隆仓库：
-
-```bash
-git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git
-cd ian-xiaohei-illustrations
+```json
+{
+  "name": "Balaji",
+  "role": "Full-Stack Developer | Creative Coder",
+  "location": "India 🇮🇳",
+  "education": "Lifelong Learner 📚",
+  "core_competencies": ["Frontend Architect", "3D Web Experiences", "UI/UX Optimization"],
+  "current_stack": ["React.js", "Next.js", "Three.js", "GSAP", "TypeScript", "Node.js"],
+  "mission": "To turn complex problems into elegant, user-centric solutions.",
+  "status": "Refactoring the universe... 🚀"
+}
 ```
+</details>
 
-复制 skill 到 Codex skills 目录：
-
-```bash
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R ./ian-xiaohei-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
-```
-
-安装后，在 Codex 里使用：
-
-```text
-Use $ian-xiaohei-illustrations 为这篇中文文章设计并生成 5 张小黑怪诞正文配图。
-```
+<br/>
 
 ---
 
-## 怎么用
+### 🛠️ **Tech Arsenal**
 
-### 只做配图规划
-
-```text
-Use $ian-xiaohei-illustrations 先不要生图。
-请分析下面这篇文章哪里值得配图，输出 5 张左右的 shot list。
-每张图写清楚：放在哪段后、主题、核心意思、结构类型、小黑在做什么、建议中文标注词。
-
-<粘贴文章>
-```
-
-### 直接生成正文配图
-
-```text
-Use $ian-xiaohei-illustrations 把下面这篇文章生成 4 张小黑怪诞正文配图。
-要求：16:9 横版、纯白背景、黑色手绘线稿、少量红橙蓝中文手写批注。
-
-<粘贴文章>
-```
-
-### 为单个概念生成一张图
-
-```text
-Use $ian-xiaohei-illustrations 为“信任不是喊出来的，而是一块证据一块证据铺过去”生成一张正文配图。
-画面要怪诞但清爽，小黑必须承担核心动作。
-```
-
-### 去掉图里的标题或错误文字
-
-```text
-Use $ian-xiaohei-illustrations 帮我编辑这张图，去掉左上角的“流程图”标题，其他内容保持不变。
-```
-
-更多示例见 [examples/prompts.md](examples/prompts.md)。
-
----
-
-## 工作流程
-
-这个 skill 的流程是：
-
-1. 读取文章、Markdown、Notion 内容、截图或用户给的主题
-2. 提炼核心观点、认知转折、流程结构和适合视觉化的段落
-3. 先输出 shot list：每张图只选一个认知锚点
-4. 为每张图选择结构类型：Workflow、系统局部、前后对比、角色状态、概念隐喻、方法分层、地图路线或小漫画分镜
-5. 重新发明一个低科技、怪诞但成立的物理隐喻
-6. 让小黑承担核心动作
-7. 每张图单独调用图像模型生成
-8. 按 QA checklist 检查：白底、留白、小黑动作、中文标注、非 PPT 感、非旧案例复刻
-9. 保存最终 PNG，并报告用途和路径
-
----
-
-## 目录结构
-
-```text
-.
-├── README.md
-├── LICENSE
-├── NOTICE.md
-├── assets/
-│   └── ian-wechat-qr.jpg
-├── examples/
-│   ├── images/
-│   │   ├── 01-two-breakpoints.png
-│   │   ├── 02-sort-by-purpose.png
-│   │   └── ...
-│   └── prompts.md
-└── ian-xiaohei-illustrations/
-    ├── SKILL.md
-    ├── agents/
-    │   └── openai.yaml
-    ├── assets/
-    │   └── examples/
-    └── references/
-        ├── style-dna.md
-        ├── xiaohei-ip.md
-        ├── composition-patterns.md
-        ├── prompt-template.md
-        └── qa-checklist.md
-```
-
-真正需要安装到 Codex 的是子目录：
-
-```text
-ian-xiaohei-illustrations/
-```
-
-根目录的 README、LICENSE、NOTICE 和 examples 是 GitHub 分享文档。
-
----
-
-## 注意事项
-
-- 图片里的中文文字越短越稳定。
-- 每张图只讲一个核心结构，不要把文章做成说明书。
-- 小黑必须承担核心动作；如果去掉小黑画面仍然完全成立，说明小黑太装饰了。
-- 示例图只用于校准线条密度、留白、颜色克制和小黑参与方式，不要复刻构图。
-- AI 图像模型可能出现错字、幻觉标签、风格漂移或多余标题，生成后需要检查。
-- 如果中文错字严重，优先减少标注词并重生成。
-
----
-
-## 相关项目
-
-- [Ian Handdrawn PPT](https://github.com/helloianneo/ian-handdrawn-ppt) — 中文手绘技术 PPT-style 页面图生成 Skill
-- [Awesome Claude Code Skills](https://github.com/helloianneo/awesome-claude-code-skills) — Claude Code Skills / Agents / Plugins 精选合集
-- [Obsidian + Claude AI Second Brain](https://github.com/helloianneo/obsidian-ai-second-brain) — Obsidian + Claude AI 个人知识库搭建指南
-
----
-
-## 关于作者
-
-**Ian (伊恩)** — 产品设计师 / 一人公司实践者 / AI Builder
-
-用 AI 团队打造一人公司。
-
-- GitHub: [helloianneo](https://github.com/helloianneo)
-- X/Twitter: [@ianneo_ai](https://x.com/ianneo_ai)
-- 网站: [www.ianneo.xyz](https://www.ianneo.xyz)
-- 微信: `ianneoxyz`
-- 邮箱: hello.neoc@gmail.com
-
----
-
-## 继续探索
-
-这套小黑配图 Skill，只是我用 AI 搭建个人生产系统里的一个小工具。
-
-如果你也在用 AI 做内容、知识库、工作流或产品化，可以继续看我的网站：[www.ianneo.xyz](https://www.ianneo.xyz)。
-
-只想先观察，可以关注我的 [X/Twitter](https://x.com/ianneo_ai)。
-
-想了解 Indie Builders Club，加微信：`ianneoxyz`，备注「OPC」。
-
-<p>
-  <img src="assets/ian-wechat-qr.jpg" alt="Ian 微信二维码" width="120">
+<p align="center">
+  <i>Technologies I work with to bring ideas to life.</i>
 </p>
 
-不方便扫码也可以搜索微信：`ianneoxyz`。
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,react,nextjs,vue,threejs,tailwind,sass,css,html,js,nodejs,express,mongodb,postgres,docker,git,github,vscode,figma&perline=10" />
+  </a>
+</p>
 
 ---
 
-## License
+### 📊 **GitHub Analytics**
 
-MIT License. See [LICENSE](LICENSE).
+<div align="center">
+  <a href="https://github.com/Balajitechlabs">
+    <img src="https://github-readme-stats.vercel.app/api?username=Balajitechlabs&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00F2FE&icon_color=4FACFE&text_color=C9D1D9" alt="Balaji's GitHub Stats" />
+  </a>
+  <a href="https://github.com/Balajitechlabs">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Balajitechlabs&layout=compact&hide_border=true&bg_color=0D1117&title_color=00F2FE&text_color=C9D1D9" alt="Top Languages" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=Balajitechlabs&hide_border=true&background=0D1117&ring=00F2FE&fire=4FACFE&currStreakLabel=00F2FE&sideNums=C9D1D9&sideLabels=C9D1D9&dates=C9D1D9" alt="GitHub Streak" />
+</div>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Balajitechlabs&theme=radical&no-frame=true&column=8&margin-w=15&margin-h=15" alt="Trophies" />
+</p>
+
+---
+
+### 📈 **Contribution Graph**
+
+<p align="center">
+  <!-- GitHub Activity Graph Customized to Theme -->
+  <img alt="github activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Balajitechlabs&bg_color=0D1117&color=00F2FE&line=4FACFE&point=FFFFFF&area=true&hide_border=true&area_color=00F2FE20" />
+</p>
+
+---
+
+### 💼 **Featured Works**
+
+| 🌟 Project | 📝 Description | 🚀 Tech Stack |
+| :--- | :--- | :--- |
+| **[Official Portfolio](https://github.com/Balajitechlabs/official_protfolio_website)** | Award-winning 3D portfolio website showcasing my creative coding skills. | `React` `Three.js` `TS` |
+| **[Raycast Universal Updater](https://github.com/Balajitechlabs/raycast-universal-updater)** | A powerful, comprehensive package manager updater for Raycast. | `Raycast` `React` `TS` |
+| **[Coming Soon](#)** | I'm constantly building new things. Check my repositories! | `Next.js` `Tailwind` |
+
+---
+
+### 🎯 **Current Focus & 2026 Vision**
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Goal-Launch_10+_Open_Source_Projects-00F2FE?style=flat-square&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Goal-Reach_1000+_GitHub_Stars-4FACFE?style=flat-square&logo=apache-spark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Learning-Rust_&_WebAssembly-E46622?style=flat-square&logo=rust&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Mission-Build_20+_Client_Projects-00F2FE?style=flat-square&logo=rocket&logoColor=white"/>
+</div>
+
+---
+
+### 🤝 **Let's Connect & Collaborate**
+
+<p align="center">
+  <a href="http://www.linkedin.com/in/balajideveloper"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://x.com/thelifeofbalaji"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter"/></a>
+  <a href="https://discord.gg/aEFDYEgJ"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
+  <a href="https://telegram.me/balajidev_07/"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
+  <a href="https://www.youtube.com/@balajitechlabs-24"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
+  <a href="https://dev.to/balajitechlabs_"><img src="https://img.shields.io/badge/DEV-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="DEV"/></a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/balajitechlabs_/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
+  <a href="https://www.hackerrank.com/profile/bala_developer07"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank"/></a>
+  <a href="https://www.behance.net/balajitechlab"><img src="https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white" alt="Behance"/></a>
+</p>
+
+---
+
+### ☕ **Support My Open Source Journey**
+
+<p align="center">
+  <i>If my tools or tutorials have helped you, consider buying me a coffee to fuel future projects!</i><br><br>
+  <a href="https://razorpay.me/@balajitechlabs"><img src="https://img.shields.io/badge/Donate-Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white" alt="Razorpay"/></a>
+  <a href="https://buymeacoffee.com/balajitechlabs"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/></a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:4facfe&height=120&section=footer&text=Designed%20with%20%E2%99%A5%20by%20Balaji&fontSize=20&animation=fadeIn&fontAlignY=70" alt="Footer"/>
+</p>
+</div>
+<!-- markdownlint-enable MD033 MD041 -->
