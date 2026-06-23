@@ -1,152 +1,137 @@
-<!-- markdownlint-disable MD033 MD041 -->
-<div align="center">
+# Balajitechlabs Illustrations
 
-<!-- 🚀 DYNAMIC HEADER SECTION 🚀 -->
-<picture>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=300&section=header&text=Balaji%20S&fontSize=90&animation=fadeIn&fontAlignY=35&desc=Crafting%20Digital%20Experiences%20Through%20Code&descAlignY=60&descSize=25" width="100%"/>
-</picture>
-
-<br/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F2FE&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;React+%26+Three.js+Expert;UI%2FUX+Designer;Open+Source+Contributor" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<!-- 🌐 QUICK STATS & LINKS 🌐 -->
-<div align="center">
-  <a href="mailto:admin@balajitechlab.com"><img src="https://img.shields.io/badge/Email-admin%40balajitechlab.com-00F2FE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://portfolio.balajitechlab.com"><img src="https://img.shields.io/badge/Portfolio-balajitechlab.com-4FACFE?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
-  <img src="https://komarev.com/ghpvc/?username=Balajitechlabs&label=Profile%20Views&color=00F2FE&style=for-the-badge" alt="profile views"/>
-</div>
-<br/>
+> A Codex skill for generating absurd, hand-drawn Chinese article illustrations with the Xiaohei visual IP.
+>
+> 16:9 horizontal | white background | black sketch lines | sparse red/orange/blue notes
 
 ---
 
-### 👨‍💻 **Who Am I?**
+## What this repository is
 
-I am a passionate **Full-Stack Developer** and **UI/UX Designer** based in India. I specialize in building immersive, high-performance web applications with a strong focus on 3D animations and responsive design. When I'm not coding, I'm exploring new technologies, contributing to open-source, or refining my design aesthetics.
+This repository contains the `balajitechlabs-illustrations` Codex skill. It is designed to guide AI agents to generate inline illustrations for Chinese articles, blog posts, Notion content, workflow documentation, and methodology content.
 
-<details>
-<summary><b>✨ Terminal: <code>whoami</code> (Click to expand)</b></summary>
+The goal is not to produce commercial illustration, PPT diagrams, or cute cartoon art. Instead, it turns a key idea, flow, structure, state, or metaphor from the article into a clean, absurd, readable hand-drawn sketch.
 
-```json
-{
-  "name": "Balaji",
-  "role": "Full-Stack Developer | Creative Coder",
-  "location": "India 🇮🇳",
-  "education": "Lifelong Learner 📚",
-  "core_competencies": ["Frontend Architect", "3D Web Experiences", "UI/UX Optimization"],
-  "current_stack": ["React.js", "Next.js", "Three.js", "GSAP", "TypeScript", "Node.js"],
-  "mission": "To turn complex problems into elegant, user-centric solutions.",
-  "status": "Refactoring the universe... 🚀"
-}
+The default visual identity is "Xiaohei": a solid black figure with white dot eyes, thin legs, and a blank serious expression. Xiaohei participates in the core action of the illustration, not just decorates it.
+
+---
+
+## What this project produces
+
+Default output:
+
+- 16:9 horizontal article illustrations
+- a shot list of 4-8 illustration ideas for one article
+- per-image theme, core idea, structure type, Xiaohei action, and Chinese label suggestions
+- final PNG assets saved to `assets/<article-slug>-illustrations/`
+
+Not intended for:
+
+- PPT / PDF / Keynote
+- SVG / HTML / Canvas editable art
+- brand hero posters or polished flat illustration
+- dense text-heavy infographics
+
+---
+
+## Key design principles
+
+- pure white background with no texture, gradient, shadow, or noise
+- black hand-drawn line art with thin, slightly wobbly strokes
+- large whitespace, with the subject occupying about 40%-60% of the canvas
+- sparse Chinese handwritten annotations in red/orange/blue
+- one illustration should convey only one core action, structure, state, or metaphor
+- Xiaohei must be the active protagonist in the image
+
+---
+
+## Repository structure
+
+```text
+.
+├── README.md
+├── LICENSE
+├── NOTICE.md
+├── assets/
+│   └── ian-wechat-qr.jpg
+├── examples/
+│   ├── images/
+│   │   ├── 01-two-breakpoints.png
+│   │   ├── 02-sort-by-purpose.png
+│   │   └── ...
+│   └── prompts.md
+└── balajitechlabs-illustrations/
+    ├── SKILL.md
+    ├── agents/
+    │   └── openai.yaml
+    ├── assets/
+    │   └── examples/
+    └── references/
+        ├── style-dna.md
+        ├── xiaohei-ip.md
+        ├── composition-patterns.md
+        ├── prompt-template.md
+        └── qa-checklist.md
 ```
-</details>
-
-<br/>
 
 ---
 
-### 🛠️ **Tech Arsenal**
+## Installation
 
-<p align="center">
-  <i>Technologies I work with to bring ideas to life.</i>
-</p>
+Clone the repository:
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,react,nextjs,vue,threejs,tailwind,sass,css,html,js,nodejs,express,mongodb,postgres,docker,git,github,vscode,figma&perline=10" />
-  </a>
-</p>
+```bash
+git clone https://github.com/Balajitechlabs/balajitechlabs-illustrations.git
+cd balajitechlabs-illustrations
+```
 
----
+Copy the skill into your Codex skills directory:
 
-### 📊 **GitHub Analytics**
-
-<div align="center">
-  <a href="https://github.com/Balajitechlabs">
-    <img src="https://github-readme-stats.vercel.app/api?username=Balajitechlabs&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00F2FE&icon_color=4FACFE&text_color=C9D1D9" alt="Balaji's GitHub Stats" />
-  </a>
-  <a href="https://github.com/Balajitechlabs">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Balajitechlabs&layout=compact&hide_border=true&bg_color=0D1117&title_color=00F2FE&text_color=C9D1D9" alt="Top Languages" />
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Balajitechlabs&hide_border=true&background=0D1117&ring=00F2FE&fire=4FACFE&currStreakLabel=00F2FE&sideNums=C9D1D9&sideLabels=C9D1D9&dates=C9D1D9" alt="GitHub Streak" />
-</div>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Balajitechlabs&theme=radical&no-frame=true&column=8&margin-w=15&margin-h=15" alt="Trophies" />
-</p>
+```bash
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+cp -R ./balajitechlabs-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
+```
 
 ---
 
-### 📈 **Contribution Graph**
+## Usage examples
 
-<p align="center">
-  <!-- GitHub Activity Graph Customized to Theme -->
-  <img alt="github activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Balajitechlabs&bg_color=0D1117&color=00F2FE&line=4FACFE&point=FFFFFF&area=true&hide_border=true&area_color=00F2FE20" />
-</p>
+### Plan illustrations only
 
----
+```text
+Use $balajitechlabs-illustrations to plan only, do not generate images yet.
+Analyze this article and output about 5 shot list items.
+Each item should include the placement, theme, core idea, structure type, Xiaohei action, suggested elements, and suggested Chinese labels.
 
-### 💼 **Featured Works**
+<insert article>
+```
 
-| 🌟 Project | 📝 Description | 🚀 Tech Stack |
-| :--- | :--- | :--- |
-| **[Official Portfolio](https://github.com/Balajitechlabs/official_protfolio_website)** | Award-winning 3D portfolio website showcasing my creative coding skills. | `React` `Three.js` `TS` |
-| **[Raycast Universal Updater](https://github.com/Balajitechlabs/raycast-universal-updater)** | A powerful, comprehensive package manager updater for Raycast. | `Raycast` `React` `TS` |
-| **[Coming Soon](#)** | I'm constantly building new things. Check my repositories! | `Next.js` `Tailwind` |
+### Generate article illustrations
 
----
+```text
+Use $balajitechlabs-illustrations to generate 4 Xiaohei-style article illustrations for this article.
+Requirements: 16:9 horizontal, pure white background, black hand-drawn line art, sparse red/orange/blue Chinese handwritten annotations.
+Each image should explain only one core structure. Do not make a PPT-style infographic.
 
-### 🎯 **Current Focus & 2026 Vision**
+<insert article>
+```
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Goal-Launch_10+_Open_Source_Projects-00F2FE?style=flat-square&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Goal-Reach_1000+_GitHub_Stars-4FACFE?style=flat-square&logo=apache-spark&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Learning-Rust_&_WebAssembly-E46622?style=flat-square&logo=rust&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Mission-Build_20+_Client_Projects-00F2FE?style=flat-square&logo=rocket&logoColor=white"/>
-</div>
+### Single concept illustration
 
----
+```text
+Use $balajitechlabs-illustrations to generate one 16:9 article illustration for the concept:
 
-### 🤝 **Let's Connect & Collaborate**
+Trust is not shouted. It is laid down piece by piece as evidence.
 
-<p align="center">
-  <a href="http://www.linkedin.com/in/balajideveloper"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://x.com/thelifeofbalaji"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter"/></a>
-  <a href="https://discord.gg/aEFDYEgJ"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
-  <a href="https://telegram.me/balajidev_07/"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
-  <a href="https://www.youtube.com/@balajitechlabs-24"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
-  <a href="https://dev.to/balajitechlabs_"><img src="https://img.shields.io/badge/DEV-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="DEV"/></a>
-</p>
-
-<p align="center">
-  <a href="https://leetcode.com/u/balajitechlabs_/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
-  <a href="https://www.hackerrank.com/profile/bala_developer07"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank"/></a>
-  <a href="https://www.behance.net/balajitechlab"><img src="https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white" alt="Behance"/></a>
-</p>
+Make the image absurd but clean. Xiaohei must perform the core action.
+Use at most 5 short Chinese labels.
+```
 
 ---
 
-### ☕ **Support My Open Source Journey**
+## Notes
 
-<p align="center">
-  <i>If my tools or tutorials have helped you, consider buying me a coffee to fuel future projects!</i><br><br>
-  <a href="https://razorpay.me/@balajitechlabs"><img src="https://img.shields.io/badge/Donate-Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white" alt="Razorpay"/></a>
-  <a href="https://buymeacoffee.com/balajitechlabs"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/></a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:4facfe&height=120&section=footer&text=Designed%20with%20%E2%99%A5%20by%20Balaji&fontSize=20&animation=fadeIn&fontAlignY=70" alt="Footer"/>
-</p>
-</div>
-<!-- markdownlint-enable MD033 MD041 -->
+- Example images in `examples/images/` are for style calibration only.
+- Do not directly copy the old examples' compositions.
+- After generation, check the image for white background, whitespace, Xiaohei action, and readable Chinese labels.
+- If many Chinese label errors appear, reduce labels and regenerate.
